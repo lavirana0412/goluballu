@@ -1,11 +1,11 @@
 let messages = [
-    "You are my favorite notification 😎📱",
-    "I love you more than pizza 🍕❤️",
+    "You are my naina😎📱",
+    "I love you more than malai chaap 🍕❤️",
     "Smile! You make my day brighter 😁✨",
     "You + Me = 😍",
     "If you were a vegetable, you'd be a cute-cumber 🥒😂",
-    "Your smile should be illegal 😜",
-    "Warning: Hug incoming 🤗💖"
+    " aur guggu muggu 😜",
+    "your eyes baby your eyes"
 ];
 
 function showFunnyMessage() {
@@ -24,4 +24,5 @@ function showFunnyMessage() {
     }, 300);
 
     // Optional: Confetti effect (later)
+
 }
