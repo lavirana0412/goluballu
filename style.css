@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    padding-top: 100px;
+}
+
+h1 {
+    color: #ff3366;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: linear-gradient(to right, #ffcc33, #ff66cc);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+#funny-text {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #333;
+    transition: all 0.3s;
+}
